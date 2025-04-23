@@ -16,7 +16,7 @@ const NavBar = () => {
           <div>
             <img src={profile} alt="" />
           </div>
-          <button className="btn rounded-none">Login</button>
+          <Link to="/auth/login" className="btn rounded-none">Login</Link>
         </div>
       </div>
     </div>
